@@ -1,6 +1,6 @@
 These modules create the following:
 
-- 2 webservers (with nginx)
+- 2 webservers (with nginx running on them)
 - 2 DBs
 - 1 ALB (+ rotating logs and stickiness of 1 minute)
 - 1 VPC
@@ -10,7 +10,7 @@ These modules create the following:
 - 1 pubic route table and its association
 - 1 internet gateway
 - 1 nat gateway
-- TFstates is saved to S3 bucket (which was created earlier)
+- TFstates are saved to S3 bucket (which was created earlier - divided into Network and Application respectfully)
 
 Note:
 - There are 2 availability zones
